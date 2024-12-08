@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://rift-chief-behavior.glitch.me'
 });
 
 instance.interceptors.request.use(
